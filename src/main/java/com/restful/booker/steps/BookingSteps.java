@@ -60,6 +60,7 @@ public class BookingSteps {
     @Step
     public ValidatableResponse deleteBooking(int bookingId){
         return SerenityRest.given().log().all()
+                .contentType(ContentType.JSON)
                 .header("Authorization", "Bearer e5b524a9808ba1")
                 .header("admin","password123")
                 .pathParam("bookingId",bookingId)
