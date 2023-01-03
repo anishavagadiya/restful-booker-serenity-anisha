@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.restful.booker.crudtest.BookingCrudTest" skipped="0" tests="4" time="7.04" timestamp="2023-01-03T13:22:52.965Z[Europe/London]"><testcase classname="com.restful.booker.crudtest.BookingCrudTest" name="Verify Booking was created "/><testcase classname="com.restful.booker.crudtest.BookingCrudTest" name="verify test get single booking"/><testcase classname="com.restful.booker.crudtest.BookingCrudTest" name="Verify Booking was updated "><error message="Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation." type="java.lang.IllegalStateException">Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.</error><system-err>Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:402)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.restful.booker.crudtest.BookingCrudTest.test003(BookingCrudTest.java:59)&#13;
+</system-err></testcase><testcase classname="com.restful.booker.crudtest.BookingCrudTest" name="verify booking was deleted"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.crudtest.BookingCrudTest.test004(BookingCrudTest.java:69)&#13;
+</system-err></testcase></testsuite>
